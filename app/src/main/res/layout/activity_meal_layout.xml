@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MealLayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/repasNameId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Repas:"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/repasPrixId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prix: " />
+
+        <TextView
+            android:id="@+id/repasTypeId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Repas Type:" />
+
+        <TextView
+            android:id="@+id/typeCuisineId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type de Cuisine:" />
+
+        <TextView
+            android:id="@+id/ingredientsId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients:" />
+
+        <TextView
+            android:id="@+id/allergiesId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Allergies:" />
+
+        <TextView
+            android:id="@+id/repasDescriptionId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:" />
+
+        <TextView
+            android:id="@+id/cuisinierNomId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuisinier:"
+            android:textColor="#7E158F"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/cuisinierAddressId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuisinier Address"
+            android:textColor="#7E158F" />
+
+        <TextView
+            android:id="@+id/cuisinerDescriptionId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cusinier Description"
+            android:textColor="#7E158F" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
